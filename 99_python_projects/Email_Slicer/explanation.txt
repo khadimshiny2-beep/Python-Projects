@@ -1,0 +1,37 @@
+### 1. Modules and Installation
+
+— Modules Needed:
+  — This code does not require any external modules. It uses built—in Python functions and features that come with Python's standard library.
+
+### 2. Purpose of the Code
+
+The code is designed to extract and display the username and domain from an email address entered by the user. 
+
+### 3. How the Code Works
+
+#### Email Slicing Function
+
+— `email_slicer(email)`: 
+  — This function takes an email address as input and tries to separate it into two parts: the username and the domain.
+  — Username is the part before the "@" symbol.
+  — Domain is the part after the "@" symbol.
+  — For example, in the email "john.doe@example.com", "john.doe" is the username and "example.com" is the domain.
+
+  — If the input email address does not contain exactly one "@" symbol, the function will raise an error, indicating that the email address is invalid.
+
+#### Main Program Execution
+
+— User Input:
+  — When the program runs, it asks the user to enter an email address.
+
+— Processing the Input:
+  — The program uses the `email_slicer` function to process the entered email address.
+  — It extracts the username and domain from the email address.
+
+— Displaying the Results:
+  — If the email address is valid and can be sliced into username and domain, the program will print both parts to the screen.
+  — If the email address is invalid (for example, missing the "@" symbol), the program will show an error message to the user explaining that the email address is not valid.
+
+### Summary
+
+This code is a simple tool for extracting the username and domain from an email address. It uses a function to separate the email into its components and handles errors if the email format is incorrect. This can be helpful for understanding or processing email addresses in various applications.
