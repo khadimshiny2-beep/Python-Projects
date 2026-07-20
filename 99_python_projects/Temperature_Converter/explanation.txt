@@ -1,0 +1,32 @@
+#### 1. Modules to Install
+
+This code doesn’t require any external modules or libraries. It uses Python’s built-in functions and data types, so you don’t need to install anything extra.
+
+#### 2. What Does the Code Do?
+
+This code is a simple temperature converter. It allows you to convert temperatures between Fahrenheit and Celsius. When you run the code, it provides you with two options:
+1. Convert a temperature from Fahrenheit to Celsius.
+2. Convert a temperature from Celsius to Fahrenheit.
+
+#### 3. How Does the Code Work?
+
+1. Functions for Conversion:
+   - There are two functions defined in the code:
+     - Fahrenheit to Celsius: This function takes a temperature in Fahrenheit and converts it to Celsius using a specific mathematical formula.
+     - Celsius to Fahrenheit: This function takes a temperature in Celsius and converts it to Fahrenheit using another mathematical formula.
+
+2. User Interaction:
+   - Displaying Choices: The `main` function starts by displaying a welcome message and provides the user with two options for temperature conversion.
+   - Getting User Input: The user is prompted to choose one of the two options by entering a number (1 or 2).
+   - Performing the Conversion:
+     - If the user chooses option 1, they are asked to enter a temperature in Fahrenheit. The code then uses the Fahrenheit-to-Celsius conversion function to compute and display the result.
+     - If the user chooses option 2, they are asked to enter a temperature in Celsius. The code then uses the Celsius-to-Fahrenheit conversion function to compute and display the result.
+   - Handling Invalid Input: If the user enters a choice that is not 1 or 2, the code informs them that their choice is invalid and prompts them to enter a valid option.
+
+3. Execution:
+   - The `main` function is the entry point of the program. When the script is run, this function is called, and the program starts executing from there.
+
+4. Formatting the Output:
+   - The results are displayed with a precision of two decimal places to make the output neat and easy to read.
+
+This code provides a straightforward way to convert temperatures between Fahrenheit and Celsius. It consists of functions for each type of conversion, a main function to handle user interaction, and logic to display the appropriate results based on the user's choice. No additional modules are needed, making it a self-contained and easy-to-use temperature conversion tool.
