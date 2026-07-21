@@ -1,0 +1,27 @@
+#### 1. Modules to Install
+
+To run this code, you need to install the `colorama` module. This module is used for producing colored text output in the terminal. You can install it using the package manager `pip` with the following command: `pip install colorama`
+
+#### 2. What Does the Code Do?
+
+The code is designed to print messages to the terminal in various colors and styles. This is achieved by using the `colorama` module, which allows text to be colored and styled when displayed in the terminal.
+
+#### 3. How Does the Code Work?
+
+1. Initializing Colorama:
+   — The `colorama` module is initialized with the `autoreset=True` option. This means that after each print statement, the text style will reset to the default, so that subsequent prints are not affected by previous color settings.
+
+2. Function Definition:
+   — A function named `print_colored_message` is defined. This function takes three parameters: `fore_color`, `back_color`, and `message`.
+     — `fore_color` specifies the text color.
+     — `back_color` specifies the background color.
+     — `message` is the text that will be displayed.
+   — The function prints the message with the specified foreground and background colors applied.
+
+3. Printing Colored Messages:
+   — The code includes several calls to the `print_colored_message` function with different color settings for demonstration.
+     — Different foreground (text) and background colors are applied to the messages to showcase how the text will appear in the terminal.
+
+This code allows you to print colored and styled messages in the terminal using the `colorama` module. After installing `colorama`, the script sets up colors and styles for text output and demonstrates various color combinations by printing messages with different foreground and background colors.
+
+NOTE: I created a venv folder for the packages then deleted it before uploading the code. NEVER UPLOAD YOUR VENV FOLDERS TO GITHUB FOR SECURITY REASONS !!!
