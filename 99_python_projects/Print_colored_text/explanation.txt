@@ -24,4 +24,4 @@ The code is designed to print messages to the terminal in various colors and sty
 
 This code allows you to print colored and styled messages in the terminal using the `colorama` module. After installing `colorama`, the script sets up colors and styles for text output and demonstrates various color combinations by printing messages with different foreground and background colors.
 
-NOTE: I created a venv folder for the packages then used .gitignore to filter it out. NEVER UPLOAD YOUR VENV FOLDERS TO GITHUB FOR SECURITY REASONS !!!
+NOTE: I created a venv folder for the external packages then used .gitignore to filter it out. NEVER UPLOAD YOUR VENV FOLDERS TO GITHUB FOR SECURITY REASONS !!!
